@@ -6,7 +6,6 @@
 
 .container {
   width: 100%;
-
   margin: 0 auto;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -17,18 +16,23 @@
 .header {
   background-color: black;
   color: white;
-  padding: 25px;
+  padding: 35px;
+ 
+
 
  
 }
 
 .header h1 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 42px;
+  font-family: 'Inter';
 }
 
 .header p {
   margin: 5px 0 0;
+  font-family: 'Inter';
+  font-size: 26px;
 }
 
 .content {
@@ -54,13 +58,15 @@
 }
 
 .enable-button {
-  background-color: #28a745;
-  color: white;
+ border: 1px solid #28a745;
+  color: #28a745;
+  background-color: white;
 }
 
 .disable-button {
-  background-color: #dc3545;
-  color: white;
+  border: 1px solid #dc3545;
+  color:#dc3545;
+  background-color: white;
 }
 
 .buttons {
@@ -155,8 +161,8 @@
   margin-top: 95px;
   margin-left: 60px;
   border-radius: 30px;
-
-  padding: 40px;
+  padding: 80px;
+  height: 250px;
   text-align: center;
   text-align: center;
 }
@@ -166,12 +172,13 @@
 }
 .div-suporte span{
   font-family: 'inter';
-  font-size: 20px;
+  font-size: 26px;
 }
 .button_suporte{
-  margin-top: 25px;
+  margin-top: 11px;
   background-color: black;
   color: white;
+  height: auto;
   height: 50px;
   border-radius: 5px;
   font-family: 'Inter';
