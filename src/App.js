@@ -3,6 +3,7 @@ import './App.css';
 import SwitchToggle from './components/SwitchToggle';
 import { useState } from 'react';
 import icone_suporte  from './imagens/icone_suporte.png'
+import PlansList from './components/planos/PlanCard';
 function App() {
   const settingsData = [
     {
@@ -152,10 +153,17 @@ function App() {
 
       Queremos ouvir suas sugestões e melhorar continuamente nossos serviços. Obrigado por escolher a Fire Protect!
       </span>
+      <br/>
        <button className='button_suporte'>Obter suporte</button>
     </div>
 
   </div>
+    <div className='planos'>
+    <h1>Planos</h1>
+    <p>Escolha o plano que mais se adequa às suas necessidades de segurança</p>
+      <PlansList />
+    </div>
+
   </div>
   );
 }

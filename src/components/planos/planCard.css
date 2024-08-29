@@ -1,0 +1,76 @@
+.plans-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .check {
+    vertical-align: middle; /* Centraliza verticalmente a imagem */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+    margin-top: 3px;
+    width: 30px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 30px;
+  }
+
+li {
+    display: flex; 
+    align-items: center; 
+    margin-top: 5px;
+   
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    margin: 20px;
+    background-color: #F6F6F6;
+    text-align: left;
+    height: 500px;
+    width: 300px; /* Largura padrão dos cards */
+  }
+  
+  .card.recommended {
+    border: 2px solid rgb(0, 0, 0);
+    position: relative;
+    width: 330px; /* Largura maior para o card recomendado */
+    height: 540px;
+  }
+  
+  
+  .card.recommended::before {
+    content: "Recomendado";
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0, 0.5);
+    position: absolute;
+    top: 35px;
+    right:  20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  button {
+    background-color: #F6F6F6;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  .butto_recommended{
+    background-color: black;
+    color: white;
+  }

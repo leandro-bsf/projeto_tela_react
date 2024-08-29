@@ -117,7 +117,7 @@
   font-family:'inter' ;
 }
 .div-faq{
-  
+
   width: 100%;
   display: flex;
 }
@@ -133,11 +133,11 @@
   width: 100%;
   height: 65px;
   text-align: left;
-  padding: 10px;
-  font-size: 28px;
+  padding: 5px;
+  font-size: 26px;
   font-family: 'Inter';
   border: 1px solid #ccc;
-
+  color: black;
   border-radius: 5px;
   margin-bottom: 15px;
   background: none;
@@ -161,8 +161,9 @@
   margin-top: 95px;
   margin-left: 60px;
   border-radius: 30px;
-  padding: 80px;
-  height: 250px;
+  padding: 15px;
+  height: auto;
+  display: block;
   text-align: center;
   text-align: center;
 }
@@ -175,7 +176,7 @@
   font-size: 26px;
 }
 .button_suporte{
-  margin-top: 11px;
+  margin-top: 20px;
   background-color: black;
   color: white;
   height: auto;
@@ -183,4 +184,18 @@
   border-radius: 5px;
   font-family: 'Inter';
   font-size: 23px;
+}
+.planos {
+  align-items: center;
+  text-align: center; 
+}
+.planos h1{
+  font-size:  67px;
+  font-family: 'Inter';
+  font-weight: 'bold';
+}
+.planos p{
+  font-size:  30px;
+  font-family: 'Inter';
+
 }
