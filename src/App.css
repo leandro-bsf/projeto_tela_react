@@ -181,9 +181,10 @@
   color: white;
   height: auto;
   height: 50px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-family: 'Inter';
   font-size: 23px;
+  width: 300px;
 }
 .planos {
   align-items: center;
