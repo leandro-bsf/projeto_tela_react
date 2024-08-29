@@ -83,8 +83,10 @@
 .settings {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin-top: 20px;
+  margin-top: 60px;
+  gap: 60px;
+   
+  
 }
 .divisao{
   width: 100%;
@@ -97,8 +99,9 @@
 .setting {
   background-color: #F6F6F6;
   border: 1px solid rgb(215, 215, 215);
-  padding: 15px;
+  padding: 20px;
   border-radius: 10px;
+  height: 80px;
   display: block;
   justify-content: space-between;
   align-items: center;
