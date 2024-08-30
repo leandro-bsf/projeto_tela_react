@@ -55,7 +55,7 @@ export default function PlansList() {
             <h2>{plan.name}</h2>
             <p className="price">${plan.price}/mês</p>
             <button className={`button_assinar ${plan.recommended ? "butto_recommended" : ""}`}>Assinar agora</button>
-            <ul>
+            <ul  >
               {plan.features.map((feature, featureIndex) => (
                 <li key={featureIndex}> <img src={Check} className='check' /> {feature}</li>
               ))}

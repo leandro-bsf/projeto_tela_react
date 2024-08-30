@@ -7,10 +7,9 @@
   }
   .check {
     vertical-align: middle; /* Centraliza verticalmente a imagem */
-    margin-right: 10px; /* Espaço entre a imagem e o texto */
-    margin-top: 3px;
-    width: 30px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: 30px;
+    margin: 6px;
+    width: 25px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 25px;
   }
 
 li {
@@ -28,7 +27,7 @@ li {
     margin: 20px;
     background-color: #F6F6F6;
     text-align: left;
-    height: 520px;
+    height: 560px;
     width: 300px; /* Largura padrão dos cards */
   }
   
@@ -36,9 +35,9 @@ li {
     border: 2px solid rgb(0, 0, 0);
     position: relative;
     width: 330px; /* Largura maior para o card recomendado */
-    height: 600px;
-    margin-top: -25px; /* Eleva a div do meio */
-    margin-bottom: -25px; 
+    height: 610px;
+    margin-top: -10px; /* Eleva a div do meio */
+    margin-bottom: -15px; 
   }
   
   
@@ -68,6 +67,7 @@ li {
   ul {
     list-style-type: none;
     padding: 0;
+    margin-top: 20px;
     justify-content: space-between;
      
   }
