@@ -28,13 +28,13 @@ li {
     background-color: #F6F6F6;
     text-align: left;
     height: 560px;
-    width: 300px; /* Largura padrão dos cards */
+    width: 350px; /* Largura padrão dos cards */
   }
   
   .card.recommended {
     border: 2px solid rgb(0, 0, 0);
     position: relative;
-    width: 330px; /* Largura maior para o card recomendado */
+    width: 350px; /* Largura maior para o card recomendado */
     height: 610px;
     margin-top: -10px; /* Eleva a div do meio */
     margin-bottom: -15px; 
