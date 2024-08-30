@@ -13,6 +13,7 @@ export default function PlansList() {
             "Proteger O Conteúdo",
             "Suporte Via E-Mail",
           ],
+          format: true
         },
         {
           name: "Plano Padrão",
@@ -55,7 +56,7 @@ export default function PlansList() {
             <h2>{plan.name}</h2>
             <p className="price">${plan.price}/mês</p>
             <button className={`button_assinar ${plan.recommended ? "butto_recommended" : ""}`}>Assinar agora</button>
-            <ul  >
+            <ul  className={plan.format ? 'plano_minimo' : ''} >
               {plan.features.map((feature, featureIndex) => (
                 <li key={featureIndex}> <img src={Check} className='check' /> {feature}</li>
               ))}
