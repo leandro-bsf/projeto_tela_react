@@ -16,7 +16,7 @@
 .header {
   background-color: black;
   color: white;
-  padding: 45px;
+  padding: 55px;
  
 
 
@@ -37,7 +37,7 @@
 }
 
 .content {
-  padding: 25px;
+  padding: 45px;
   
 }
 
@@ -84,7 +84,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 60px;
-  gap: 60px;
+  gap: 40px;
    
   
 }

@@ -50,6 +50,7 @@ export default function PlansList() {
 
 
         {plans.map((plan, index) => (
+          
           <div key={index} className={`card ${plan.recommended ? "recommended" : ""}`}>
             <h2>{plan.name}</h2>
             <p className="price">${plan.price}/mês</p>

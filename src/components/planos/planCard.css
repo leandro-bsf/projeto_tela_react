@@ -26,7 +26,7 @@ li {
     margin: 20px;
     background-color: #F6F6F6;
     text-align: left;
-    height: 500px;
+    height: 530px;
     width: 300px; /* Largura padrão dos cards */
   }
   
@@ -43,34 +43,58 @@ li {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 0, 0, 0.5);
     position: absolute;
-    top: 35px;
+    font-family: 'Inter';
+    font-weight: 500;
+    top: 39px;
     right:  20px;
-    padding: 5px;
-    border-radius: 10px;
+    padding: 6px;
+    width: 125px;
+    height: 18px;
+    text-align: center;
+    border-radius: 15px;
   }
   
   .price {
     font-size: 24px;
-    
+    font-weight: 500;
     margin: 10px 0;
+    font-family: 'Inter';
   }
   
   ul {
     list-style-type: none;
     padding: 0;
+    justify-content: space-between;
+     
   }
   
+  .card h2{
+    font-size: 25px;
+    font-family: 'Inter';
+    font-weight: 500;
+   
+  }
   .button_assinar {
     background-color: #F6F6F6;
     color: black;
+    margin-top: 20px;
     padding: 10px 20px;
     border: none;
     width: 100%;
-    border-radius: 5px;
+    height: 45px;
+    border-radius: 12.01px;
     cursor: pointer;
     border: 1px solid black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter';
   }
   .butto_recommended{
+    margin-top: 20px;
     background-color: black;
     color: white;
+    border-radius: 10.01px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter';
   }
