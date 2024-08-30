@@ -1,6 +1,8 @@
 .plans-container {
     display: flex;
     justify-content: center;
+
+    padding: 50px;
     
   }
   .check {
@@ -26,7 +28,7 @@ li {
     margin: 20px;
     background-color: #F6F6F6;
     text-align: left;
-    height: 530px;
+    height: 520px;
     width: 300px; /* Largura padrão dos cards */
   }
   
@@ -34,7 +36,9 @@ li {
     border: 2px solid rgb(0, 0, 0);
     position: relative;
     width: 330px; /* Largura maior para o card recomendado */
-    height: 540px;
+    height: 600px;
+    margin-top: -25px; /* Eleva a div do meio */
+    margin-bottom: -25px; 
   }
   
   

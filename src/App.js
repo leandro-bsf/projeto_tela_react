@@ -134,7 +134,7 @@ function App() {
             onClick={() => toggleFAQ(index)} 
             className="faq-button"
           >
-            {faq.question} {openIndex === index ? '▲' : '▶'}
+            {faq.question} {openIndex === index ? '▼' : '▶'}
           </button>
           {openIndex === index && (
             <div className="faq-answer">
@@ -148,11 +148,14 @@ function App() {
       <img className='icone_suporte' src={icone_suporte}  alt="icone_suporte"/>
 
         <h1>Suporte e Feedback 📞</h1>
-      <span>
+        <div className='text_suporte'>
+        <span>
       Tem alguma dúvida ou precisa de ajuda? Estamos aqui para você! Clique no botão abaixo para obter suporte imediato. Seu feedback é muito importante para nós. 
-
-      Queremos ouvir suas sugestões e melhorar continuamente nossos serviços. Obrigado por escolher a Fire Protect!
       </span>
+      <br/>
+       <span> Queremos ouvir suas sugestões e melhorar continuamente nossos serviços. Obrigado por escolher a Fire Protect!</span>
+        </div>
+     
       <br/>
        <button className='button_suporte'>Obter suporte</button>
     </div>

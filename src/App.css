@@ -164,31 +164,39 @@
   margin-bottom: 10px;
 }
 .div-suporte{
-  width: 40%;
+  width: 35%;
   background-color: #F6F6F6;
   margin-top: 95px;
-  margin-left: 60px;
+  margin-left: 10em;
   border-radius: 30px;
-  padding: 15px;
+  padding: 10px;
   height: auto;
   display: block;
   text-align: center;
-  text-align: center;
+  justify-content: center;
 }
 .icone_suporte{
   width: 70px;
   height: 57px;
 }
+.text_suporte{
+  width: 70%;
+  text-align: center;
+  text-align: justify;
+  margin: auto;
+}
 .div-suporte span{
   font-family: 'inter';
-  font-size: 26px;
+  font-size: 24px;
+ 
 }
 .button_suporte{
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: black;
   color: white;
   height: auto;
   height: 50px;
+  
   border-radius: 10px;
   font-family: 'Inter';
   font-size: 23px;
