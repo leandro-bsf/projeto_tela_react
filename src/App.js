@@ -9,42 +9,43 @@ function App() {
     {
       id: "blockRightClick",
       title: "Bloquear Botão Direito",
-      description: "Restringe o usuário de usar atalhos maliciosos para roubar conteúdo",
+      description: "Cancela o botão do usuário malicioso",
     },
     {
       id: "protectImages",
-      title: "Proteja as Imagens",
-      description: "Bloquear Aplicativos Espiões e Aplicativos de Rastreamento e Monitoramento",
+      title: "Bloquear Atalhos Maliciosos",
+      description: "Restringe o usuário de usar atalhos maliciosos para roubar conteúdo",
     },
     {
       id: "blockMaliciousShortcuts",
-      title: "Bloquear Atalhos Maliciosos",
-      description: "Bloquear Compra Falsa no seu Ads",
+      title: "Bloquear Aplicativos Espiões",
+      description: "Bloquear Aplicativos Espiões e Aplicativos de Rastreamento e Monitoramento",
     },
-    {
-      id: "protectContent",
-      title: "Proteger Conteúdo",
-      description: "Bloqueia pessoas maliciosas de roubarem suas imagens",
-    },
+    
     {
       id: "blockSpyApps",
-      title: "Bloquear Aplicativos Espiões",
-      description: "Bloqueia seu conteúdo para não ser plagiado",
+      title: "Bloquear Compra Falsa",
+      description: "Bloquear Compra Falsa no seu Ads ",
     },
     {
       id: "blockThirdPartyExtensions",
+      title: "Proteja as Imagens",
+      description: "Bloqueia pessoas maliciosas de roubarem suas imagens",
+    },
+    {
+      id: "blockFakePurchase",
+      title: "Proteger Conteúdo",
+      description: "Bloqueia seu conteúdo para não ser plagiado",
+    },
+    {
+      id: "blockDevMode",
       title: "Bloquear Extensão de Terceiros",
       description: "Extensões Maliciosas para cópia de Conteúdo",
     },
     {
-      id: "blockFakePurchase",
-      title: "Bloquear Compra Falsa",
-      description: "Não permite o usuário acessar o modo desenvolvedor para não copiar seu produto",
-    },
-    {
-      id: "blockDevMode",
+      id: "protectContent",
       title: "Bloquear Modo Desenvolvedor",
-      description: "Cancela o botão do usuário malicioso",
+      description: "Não permite o usuário acessar o modo desenvolvedor para não copiar seu produto",
     },
   ];
   const [settings, setSettings] = useState({
@@ -147,13 +148,13 @@ function App() {
     <div className='div-suporte'>
       <img className='icone_suporte' src={icone_suporte}  alt="icone_suporte"/>
 
-        <h1>Suporte e Feedback 📞</h1>
+        <h1>Suporte e Feedback  📞</h1>
         <div className='text_suporte'>
         <span>
       Tem alguma dúvida ou precisa de ajuda? Estamos aqui para você! Clique no botão abaixo para obter suporte imediato. Seu feedback é muito importante para nós. 
       </span>
-      <br/>
-       <span> Queremos ouvir suas sugestões e melhorar continuamente nossos serviços. Obrigado por escolher a Fire Protect!</span>
+     
+       <p> Queremos ouvir suas sugestões e melhorar continuamente nossos serviços. Obrigado por escolher a Fire Protect!</p>
         </div>
      
       <br/>
