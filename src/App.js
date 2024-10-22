@@ -1,34 +1,25 @@
 import React from 'react';
-import { WebView } from 'react-native-webview';
-import { StyleSheet, View, Text } from 'react-native';
+import './App.css';
 
-const App = () => {
+function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Gráfico do Looker Studio</Text>
-      <WebView
-        source={{ uri: 'https://lookerstudio.google.com/embed/reporting/2c2767a8-6448-4fe2-b176-7fc6775b82b3/page/KSiDE' }}
-        style={styles.webview}
-      />
-    </View>
+    <div className="App">
+      <header className="App-header">
+        <h1>Embedded Content for Smart TV</h1>
+        <div className="iframe-container">
+          <iframe
+            title="Embedded Content"
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/ifYC0E7ufaQ?si=5t7c-i4HB4sr_KzE"  // Exemplo de um vídeo do YouTube incorporado
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </header>
+    </div>
   );
-};
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 20,
-  },
-  webview: {
-    height: 600,
-    width: '100%',
-  },
-});
+}
 
 export default App;
